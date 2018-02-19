@@ -28,7 +28,7 @@
 int main(int argc, char ** argv) {
     printf("Hello world\n");
 #if USE_FAHRENHEIT_TABLE
-    printf("This should be a table header");
+    printf("This should be a table header\n");
     int ret = fahrenheit_table();
 #endif
 }
